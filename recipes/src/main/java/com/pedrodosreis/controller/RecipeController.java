@@ -22,6 +22,8 @@ public class RecipeController {
 		recipes.add(new Recipe("Bolo", "120", "Pedro"));
 		recipes.add(new Recipe("Bolo de Chocolate", "110", "Juliana"));
 		recipes.add(new Recipe("Bolo de Cenoura", "90", "Pedro"));
+		recipes.add(new Recipe("Brigadeiro Gourmet", "30", "Pedro"));
+		recipes.add(new Recipe("Massa de Pizza", "120", "Pedro"));
 
 		return getMV();
 	}
