@@ -28,10 +28,15 @@ public class RecipeController {
 		return getMV();
 	}
 
+	/**
+	 * it must create a new object to get ID from constructor.
+	 * 
+	 * @param recipe
+	 * @return
+	 */
 	@PostMapping("/lerValores")
 	public ModelAndView lerValores(Recipe recipe) {
-		recipes.add(recipe);
-
+		recipes.add(new Recipe(recipe.getName(), recipe.getTimeRecipe(), recipe.getCreatedBy()));
 		return getMV();
 	}
 

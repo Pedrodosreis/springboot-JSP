@@ -33,9 +33,9 @@
 		</tr>
 		<c:forEach items="${recipes}" var="recipe"> 
 			<tr>
-			<td><label >${recipe.name}</label></td>
-			<td><label >${recipe.timeRecipe}</label></td>
-			<td><label >${recipe.createdBy}</label></td>
+			<td><label>${recipe.name}</label></td>
+			<td><label>${recipe.timeRecipe}</label></td>
+			<td><label>${recipe.createdBy}</label></td>
 			<td><a href="removeRecipe?name=${recipe.id}">Remove</a></td>
 			<td><a href="editRecipe?name=${recipe.id}">Edit</a></td>
 			
