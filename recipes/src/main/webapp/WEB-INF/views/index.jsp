@@ -37,7 +37,7 @@
 			<td><label>${recipe.timeRecipe}</label></td>
 			<td><label>${recipe.createdBy}</label></td>
 			<td><a href="removeRecipe?name=${recipe.id}">Remove</a></td>
-			<td><a href="editRecipe?name=${recipe.id}">Edit</a></td>
+			<td><a href="editRecipe?id=${recipe.id}">Edit</a></td>
 			
 		</tr>		
 		</c:forEach>

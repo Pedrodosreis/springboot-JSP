@@ -48,13 +48,17 @@ public class Recipe {
 		this.createdBy = createdBy;
 	}
 	
+	public void setId(String id) {
+		this.id = id;
+	}
+	
 	public String getId() {
 		return id;
 	}
 	
 	@Override
 	public String toString() {		
-		return "Nome: " + name + " Tempo de Preparo: " + timeRecipe + " Criado por: " + createdBy;
+		return "ID: " + id + " Nome: " + name + " Tempo de Preparo: " + timeRecipe + " Criado por: " + createdBy;
 	}
 	
 	
